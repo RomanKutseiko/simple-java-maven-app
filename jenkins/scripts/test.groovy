@@ -15,7 +15,7 @@ println CLIENT_NAME
 println ENVIRONMENT_TYPE
 println VERSION
 
-println 'pwd'.execute()
+println 'ls -a'.execute()
 
 //set -x
 //NAME=('mvn help:evaluate -Dexpression=project.name').execute()
