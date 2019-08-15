@@ -14,3 +14,15 @@ VERSION = args.length > 2 ? args[2] : ""
 println CLIENT_NAME
 println ENVIRONMENT_TYPE
 println VERSION
+
+//set -x
+NAME=('mvn help:evaluate -Dexpression=project.name').execute()
+//set +x
+
+//set -x
+VERSION=('mvn help:evaluate -Dexpression=project.version').execute()
+//set +x
+
+println NAME
+
+println VERSION
