@@ -15,12 +15,14 @@ println CLIENT_NAME
 println ENVIRONMENT_TYPE
 println VERSION
 
+('pwd').execute()
+
 //set -x
-NAME=('mvn help:evaluate -Dexpression=project.name').execute()
+//NAME=('mvn help:evaluate -Dexpression=project.name').execute()
 //set +x
 
 //set -x
-VERSION=('mvn help:evaluate -Dexpression=project.version').execute()
+VERSION=${POM_VERSION}//('mvn help:evaluate -Dexpression=project.version').execute()
 //set +x
 
 println NAME
