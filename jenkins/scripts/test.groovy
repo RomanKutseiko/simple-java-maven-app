@@ -11,3 +11,6 @@ CLIENT_NAME = args[0].toUpperCase()
 ENVIRONMENT_TYPE = args[1].toLowerCase()
 VERSION = args.length > 2 ? args[2] : ""
 
+println CLIENT_NAME
+println ENVIRONMENT_TYPE
+println VERSION
