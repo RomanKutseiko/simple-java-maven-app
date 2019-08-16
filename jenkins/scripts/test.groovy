@@ -17,6 +17,8 @@ println VERSION
 
 println 'ls -a'.execute()
 
+new Config("a", "b")
+
 //set -x
 //NAME=('mvn help:evaluate -Dexpression=project.name').execute()
 //set +x
