@@ -1,5 +1,3 @@
-#!/usr/bin/env groovy
-
 import Config
 
 if (args.length < 2) {
