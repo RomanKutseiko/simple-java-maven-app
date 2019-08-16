@@ -1,5 +1,6 @@
 #!/usr/bin/env groovy
 
+import Config
 
 if (args.length < 2) {
     println "Please, set CLIENT_NAME, ENVIRONMENT_TYPE and VERSION(Optional)"
