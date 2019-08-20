@@ -16,7 +16,6 @@
     </dependency>
   </dependencies>
   <build>
-    <finalName>${inputFinalName}</finalName>
     <plugins>
       <plugin>
         <!-- Build an executable JAR -->
